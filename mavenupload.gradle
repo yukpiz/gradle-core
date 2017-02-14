@@ -1,6 +1,6 @@
 def repo = new File(rootDir, mavenPublishDir)
 def groupId = mavenGroupId
-def libName = project.name
+def libName = mavenLibName
 def versionName = android.defaultConfig.versionName
 
 apply plugin: 'maven'
